@@ -47,7 +47,7 @@ return(
           <h2 className={`font-bold font-poppins text-4xl tracking-normal text-white mt-4`}>
             Get in Touch
           </h2>
-          <p className={`${styles.paragraph} mt-4 leading-6 tracking-wider text-cyan-300`}>
+          <p className={`${styles.paragraph} mt-4 leading-6 tracking-wider text-dimWhite`}>
             Try out the Best Travel consultation Services from the most trusted Agency.
           </p>
         </div>
