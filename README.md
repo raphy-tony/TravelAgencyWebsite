@@ -1,4 +1,3 @@
-# Joytech - Morden business website using React.js, Framer Motion & Tailwind CSS
-
+# Joytech - Morden business website using Next.js, Framer Motion, EmailJs & Tailwind CSS
 
 
