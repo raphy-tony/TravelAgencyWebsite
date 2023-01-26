@@ -40,7 +40,7 @@ const ContactUs = () =>{
 
 
 return(
-  <section id="contact" className={`${styles.marginY} ${styles.padding} bg-black-gradient-2 rounded-[20px] box-shadow`}>
+  <section id="contact" className={`${styles.marginY} ${styles.padding} bg-gray-gradient rounded-[20px] box-shadow`}>
     <div className="flex flex-col md:flex-row justify-between md:space-y-0 space-y-10">
       <div className="flex flex-col space-y-8 justify-between">
         <div>
@@ -56,7 +56,7 @@ return(
         <div className=" cursor-pointer space-y-4 md:space-y-6  font-poppins text-white">
           <div className="flex space-x-4 items-center">
             <IoMdCall className=" text-[25px]"/>
-            <a href="tel:0759663648">+254 759 663 648</a>
+            <a href="tel:0759663648">+254 720 352 149</a>
           </div>
           
           <div className="flex space-x-4 items-center">
@@ -70,7 +70,7 @@ return(
           </div>
         </div>
 
-        <a aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer" href="https://wa.me/759663648">
+        <a aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer" href="https://wa.me/720352149">
           <Image alt="Chat on WhatsApp" src={WhatsAppButtonGreenLarge} />
         </a>  
 
