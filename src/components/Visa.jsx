@@ -18,7 +18,7 @@ const Visa = () => (
       <motion.div
         variants={planetVariants('left')}
         className={layout.sectionImgReverse}>
-        <Image src={passport} alt="Visa" className="w-[100%] h-[76%] relative z-[5]" />
+        <Image src={passport} alt="Visa" className="w-[100%] h-[65%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

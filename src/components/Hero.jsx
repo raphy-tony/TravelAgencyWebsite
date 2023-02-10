@@ -12,7 +12,7 @@ const Hero = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} h-screen`}
       >
         <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}
