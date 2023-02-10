@@ -53,20 +53,20 @@ return(
         </div>
 
       
-        <div className=" cursor-pointer space-y-4 md:space-y-6  font-poppins text-white">
-          <div className="flex space-x-4 items-center">
+        <div className="space-y-4 md:space-y-6  font-poppins text-white">
+          <div className="flex  cursor-pointer space-x-4 items-center">
             <IoMdCall className=" text-[25px]"/>
-            <a href="tel:0759663648">+254 720 352 149</a>
+            <a href="tel:0101352149">+0101 352 149</a>
           </div>
           
-          <div className="flex space-x-4 items-center">
+          <div className="flex  cursor-pointer space-x-4 items-center">
             <MdMail className=" text-[25px]"/>
-            <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=GTvVlcSKkVPxxskjRnKHLCLFZMQgZVkDJsflCSVtBwhmlgZcVjBkljKQNcfQftxRGVbLqjDGsXcQg" className="text-md md:text-lg">raphtech@gmail.com</a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=GTvVlcSKkVPxxskjRnKHLCLFZMQgZVkDJsflCSVtBwhmlgZcVjBkljKQNcfQftxRGVbLqjDGsXcQg" className="text-sm md:text-lg">Joytechtechnologies@gmail.com</a>
           </div>
 
-          <div className="flex space-x-4 items-center">
+          <div className="flex  cursor-pointer space-x-4 items-center">
             <MdLocationOn className=" text-[25px] text-blue-gradient"/>
-            <span>Rd. Katani, Syokimau</span>
+            <span>Syokimau, Machakos</span>
           </div>
         </div>
 

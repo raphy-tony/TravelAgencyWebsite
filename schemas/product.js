@@ -5,7 +5,7 @@ export default defineType({
   title: 'Product',
   type: 'document',
   fields: [
-    {
+    defineField({
       name: 'image',
       title: 'Image',
       type: 'array',
@@ -13,13 +13,13 @@ export default defineType({
       options: {
         hotspot: true,
       }
-    },
-    { 
+    }),
+    defineField({ 
       name: 'name',
       title: 'Name',
       type: 'string',
-    },
-    { 
+    }),
+    defineField({ 
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -27,16 +27,16 @@ export default defineType({
         source: 'name',
         maxLength: 90,
       }
-    },
-    { 
+    }),
+    defineField({ 
       name: 'price',
       title: 'Price',
       type: 'number',
-    },
-    { 
+    }),
+    defineField({ 
       name: 'details',
       title: 'Details',
-      type: 'string',
-    }
+      type: 'blockContent',
+    })
   ]
 })

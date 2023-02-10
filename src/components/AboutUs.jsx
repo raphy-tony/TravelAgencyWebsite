@@ -4,6 +4,7 @@ import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 import { features } from "../constants";
 import styles, { layout } from "../style";
+import { client } from '../../lib/client';
 
 
 
@@ -24,7 +25,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const AboutUs = () =>  (
+const AboutUs = ({ testimonials }) =>  (
+
   <section id="about-us" className={layout.section}>
     <motion.div
       variants={staggerContainer}
@@ -33,14 +35,16 @@ const AboutUs = () =>  (
       viewport={{ once: false, amount: 0.25 }}
       className={layout.sectionInfo}
     >
+     
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
       >
       <h2 className={styles.heading2}>
         About Us
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum      </p>
+      <div className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        {/* {testimonials.map((testimonial) =>(testimonial.title))} */}
+      </div>
       </motion.div>
 
     </motion.div>
